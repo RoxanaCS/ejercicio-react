@@ -36,6 +36,7 @@ class Home extends Component {
         ) : (
           <div>
             <h1>Hola</h1>
+            <p>¿Cómo estás? </p>
             <img src={src} alt = {name}/>
             <p>{name}</p>
             <button onClick={onClick}>logout</button>
